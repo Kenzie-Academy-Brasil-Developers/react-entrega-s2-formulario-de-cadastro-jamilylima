@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100vw;
+    height: 40vw;
+}
+
+section {
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 50vw;
+}
+
+
+form {
+    margin-top: 100px;
+    width: 400px;
+    height: 554px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.cadastro {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+}
+
+input {
+    flex: 1 1 100%;
+    display: block;
+    outline: none;
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+input:focus {
+    border-color: #E60084;
+}
+
+a {
+    color: #E60084;
+}
+
+
+.erro {
+    color: #ff1a1a;
+
+}
+
+
+.check {
+    margin-right: 5px;
+    margin: 0px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    width: auto;
+
+}
+
+
+
+.checkbox {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    margin-right: 50px;
+
+}
+
+button {
+    background-color: #E60084;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    width: 350px;
+    font-size: 15px;
+    text-decoration: none;
+
+}
